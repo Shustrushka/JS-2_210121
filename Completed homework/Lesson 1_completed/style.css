@@ -1,0 +1,45 @@
+header {
+    height: 80px;
+    background-color: gray;
+    position: relative;
+}
+.btn-cart {
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 8px;
+    border-radius:  5px;
+    outline: none;
+    background-color: lightgray;
+    font-family: "Copperplate Gothic Bold";
+    font-weight: bold;
+}
+
+.btn-cart:hover {
+    background-color: aliceblue;
+    font-weight: bold;
+    outline: none;
+}
+.btn-cart:active {
+    background-color: lightseagreen;
+    outline: none;
+}
+.product-item h3 {
+    font-family: "Cooper Black";
+    font-size: 18px;
+}
+
+.product-item p {
+    color: darkblue;
+    font-weight: bolder;
+}
+.product-item {
+    width: 200px;
+}
+.products {
+    background-color: honeydew;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
